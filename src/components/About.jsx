@@ -53,25 +53,29 @@ const About = () => {
       <div className="container mx-auto px-4 relative z-10" ref={elementsRef}>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 items-center">
           <div className="order-2 md:order-1">
-            <h2 className="text-3xl sm:text-4xl font-condensed mb-6 reveal">ABOUT ME</h2>
+            <h2 className="text-3xl sm:text-4xl font-condensed mb-6 reveal">
+              ABOUT ME
+            </h2>
             <p className="text-base sm:text-lg text-gray-300 mb-6 sm:mb-8 reveal uppercase">
-              I specialize in{" "}
-              <span className="text-neon-green">web development</span>,{" "}
-              <span className="text-neon-green">UX analysis</span>,{" "}
-              <span className="text-neon-green">UI design</span>, and{" "}
-              <span className="text-neon-green">interface animation</span>. I'm
-              also a dedicated{" "}
-              <span className="text-neon-green">coding mentor</span> and{" "}
-              <span className="text-neon-green">cybersecurity enthusiast</span>{" "}
-              who loves sharing knowledge and building secure, efficient digital
-              solutions.
+              <span className="text-neon-green font-bold text-xl sm:text-2xl block mb-2">
+                WEB DEVELOPER
+              </span>
+              I craft modern, secure, and high-performance web applications with
+              a focus on clean code, scalability, and user experience.
             </p>
             <p className="text-base sm:text-lg text-gray-300 mb-6 sm:mb-8 reveal uppercase">
-              My passion is creating immersive, modern digital experiences that
-              blend <span className="text-neon-green">aesthetics</span> and{" "}
-              <span className="text-neon-green">functionality</span>. I believe
-              in <span className="text-neon-green">minimalist design</span> that
-              communicates clearly and elevates the user experience.
+              <span className="text-neon-green font-bold text-xl sm:text-2xl block mb-2">
+                CODING MENTOR
+              </span>
+              Passionate about teaching and empowering others, I guide aspiring
+              developers to master web technologies and best practices.
+            </p>
+            <p className="text-base sm:text-lg text-gray-300 mb-6 sm:mb-8 reveal uppercase">
+              <span className="text-neon-green font-bold text-xl sm:text-2xl block mb-2">
+                CYBERSECURITY ENTHUSIAST
+              </span>
+              Dedicated to building secure digital solutions, I actively explore
+              vulnerabilities and advocate for robust security in every project.
             </p>
 
             <a
@@ -99,7 +103,9 @@ const About = () => {
         </div>
 
         <div className="mt-16 sm:mt-20 md:mt-24">
-          <h3 className="text-2xl sm:text-3xl font-condensed mb-8 sm:mb-12 reveal">MY EXPERTISE</h3>
+          <h3 className="text-2xl sm:text-3xl font-condensed mb-8 sm:mb-12 reveal">
+            MY EXPERTISE
+          </h3>
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 sm:gap-8">
             {skills.map((skillGroup, index) => (
               <div key={index} className="reveal">
@@ -108,7 +114,10 @@ const About = () => {
                 </h4>
                 <ul className="space-y-2 sm:space-y-3">
                   {skillGroup.items.map((skill, idx) => (
-                    <li key={idx} className="flex items-center text-sm sm:text-base">
+                    <li
+                      key={idx}
+                      className="flex items-center text-sm sm:text-base"
+                    >
                       <span className="inline-block w-2 h-2 bg-neon-green mr-3"></span>
                       {skill}
                     </li>
@@ -123,4 +132,4 @@ const About = () => {
   );
 };
 
-export default About; 
+export default About;

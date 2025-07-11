@@ -90,7 +90,7 @@ const Projects = () => {
       <div className="section-number font-condensed">03</div>
       <div className="container mx-auto px-4 relative z-10">
         <h2 className="text-3xl sm:text-4xl font-condensed mb-8 sm:mb-12 reveal active">
-          FEATURED CASES
+          PROJECTS
         </h2>
         <div
           ref={projectsRef}
