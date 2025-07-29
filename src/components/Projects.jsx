@@ -84,7 +84,7 @@ const Projects = () => {
       title: "Bug Hunting",
       description:
         "Certificate of Appreciation for finding vulnerabilities in one of the Bandung Government Subdomain",
-      category: "Company Profile",
+      category: "Vulnerability Disclosure",
       image: "/assets/Bandung.png",
       link: "https://www.linkedin.com/posts/mr-rivaldo_sertifikat-apresiasi-diskominfo-bandung-activity-7355442828648353792-ocQu?utm_source=share&utm_medium=member_desktop&rcm=ACoAADvSqxkB6kvwOd7Xoa1Bau7eXPDdEh6JxCQ",
     },
